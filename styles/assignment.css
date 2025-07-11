@@ -106,8 +106,6 @@ section{
     margin: 0px auto;
 }
 
-
-
 /* action2 styles */
 .action2{
     border-radius: 24px;
@@ -162,7 +160,98 @@ section{
 .feedback-date{
     color: rgba(179, 179, 179, 1);
     font-size: 16px;
+}
+/* login form section */
+.login-section{
+    display: flex;
+    /* justify-content: space-around; */
+    text-align: right;
+}
+.login-title{
+    text-align: left;
+    font-size: 80px;
+    font-weight: bold;
+}
+.login-form{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 163px;
+}
+.label-text{
+    font-size: 18px;
+    font-weight: 500;
+    text-align: left;
+    margin-top: 19px;
+}
+.box-name-padding{
+    padding: 20px 255px 20px 32px;
+    border-radius: 10px;
+    color: rgba(214, 221, 237, 1);
+    margin-top: 10px;
+}
+.box-email-padding{
+    padding: 20px 255px 20px 32px;
+    border-radius: 10px;
+    color: rgba(214, 221, 237, 1);
+    margin-top: 10px;
 
 }
+.box-message-padding{
+    padding: 20px 257px 85px 32px;
+    border-radius: 10px;
+    color: rgba(214, 221, 237, 1);
+    margin-top: 10px;
+}
+.title-label{
+    display: flex;
+    flex-direction: column;
+}
+.submit-btn{
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    font-weight: bold;
+    background-color: rgba(78, 71, 255, 1);
+    border: none;
+    padding: 20px 201px 20px 201px;
+    border-radius: 10px;
+}
+input::placeholder{
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+textarea::placeholder{
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+/* footer section styels */
+.footer-title{
+    color: rgba(78, 71, 255, 1);
+    font-size: 100px;
+    font-weight: 900;
+}
+.footer-description{
+    color: rgba(137, 135, 161, 1);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.footer-nav-bar{
+    display: flex;
+    justify-content: space-around;
+}
+.footer-section{
+    max-width: 531px;
+}
+.nav-title{
+    color: rgba(137, 135, 161, 1);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
 
 
